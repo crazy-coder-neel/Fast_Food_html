@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("snak.jpg");
+  background-color: black;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+text-align:center;
+font-family:"Arial Rounded MT Bold",serif;
+color:white;
+font-size:20px;
+}
+
+h1{
+font-family:"Arial Rounded MT Bold",serif;
+text-align:center;
+}
+
+
+.main 
+{
+/*boder:20px;
+position:fixed;*/
+width:500px;
+margin:5% auto;
+left:0;
+right:0;
+color:white;
+background-color:black;
+border-radius:5px;
+text-align:center;
+}
+
+
+.nav{
+padding:15px;
+background-color:black;
+}
+
+.button {
+  text-align: center;
+  padding: 15px 15px;
+  background-color:#25ae65;
+  cursor: pointer;
+  }
+
+.button:hover {
+padding: 20px 20px;
+background-color:#1898b1;
+transition: 0.7s;
+}
+
+.button1 {
+  float: right;
+  padding: 15px 15px;
+  background-color:#25ae65;
+  }
+
+.button1:hover {
+  float: right;
+  padding: 20px 20px;
+  background-color:#e1340d;
+  transition: 0.7s;
+  }
